@@ -1,6 +1,6 @@
 # nth
 
-Indexing arrays is a touchy subject. Some morons think it should be done based on offset like in C. Some enlightened people understand that it should really be based on ordinal numbers. This library adds the capability to use ordinal numbers for extra readability. Don't worry, 0-indexers, you can keep believing the earth is flat, this library won't force you to use ordinal numbers.
+Indexing arrays is a touchy subject. Some morons think it should be done based on offset like in C. The rest of us understand that it should really be based on ordinal numbers. This library adds the capability to use ordinal numbers for extra readability. Don't worry, 0-indexers, you can keep believing the earth is flat, this library won't force you to use ordinal numbers.
 
 Check out the following examples of the increase in readability!
 

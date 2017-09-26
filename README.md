@@ -9,7 +9,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   nth:
-    github: [your-github-name]/nth
+    github: willamin/nth
 ```
 
 ## Usage

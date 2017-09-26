@@ -13,7 +13,7 @@ The above example read aloud says "the second element of `my_array`", _but_ it's
 my_array = [:first, :second, :third]
 my_array[2.nd]
 ```
-The above example read aloud says "the second element of `my_array`, _and_ it's using the numberal `2`.
+The above example read aloud says "the second element of `my_array`, _and_ it's using the numeral `2`.
 This way is clearly better.
 
 ## Installation

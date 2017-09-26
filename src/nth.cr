@@ -1,10 +1,7 @@
 require "./nth/*"
 
 module Nth
-end
-
-struct Int32
-  def minus_one
+  macro minus_one
     self - 1
   end
 
@@ -32,4 +29,8 @@ struct Int32
     raise "#{self}.th is invalid" if self % 10 == 3
     minus_one
   end
+end
+
+struct Int32
+  include Nth
 end

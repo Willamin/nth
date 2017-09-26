@@ -31,6 +31,8 @@ module Nth
   end
 end
 
-struct Int32
-  include Nth
-end
+{% for int in %w(Int8 Int16 Int32 Int64 UInt8 UInt16 UInt32 UInt64) %}
+  struct {{int.id}}
+    include Nth
+  end
+{% end %}

@@ -4,9 +4,9 @@ describe Nth do
   it "follows english rules" do
     my_array = [
       :first, :second, :third, :fourth, :fifth,
-      :sixth, :seventh, :eigth, :nineth, :tenth,
-      :eleventh, :twelfth, :thirteeth, :fourteeth, :fifteenth,
-      :sixteenth, :seventeeth, :eighteenth, :nineteeth, :twentieth,
+      :sixth, :seventh, :eighth, :ninth, :tenth,
+      :eleventh, :twelfth, :thirteenth, :fourteenth, :fifteenth,
+      :sixteenth, :seventeenth, :eighteenth, :nineteenth, :twentieth,
       :twentyfirst, :twentysecond, :twentythird, :twentyfourth, :twentyfifth,
     ]
 
@@ -20,9 +20,9 @@ describe Nth do
 
     my_output.join("\n").should eq <<-OUTPUT
 first second third fourth fifth
-sixth seventh eigth nineth tenth
-eleventh twelfth thirteeth fourteeth fifteenth
-sixteenth seventeeth eighteenth nineteeth twentieth
+sixth seventh eighth ninth tenth
+eleventh twelfth thirteenth fourteenth fifteenth
+sixteenth seventeenth eighteenth nineteenth twentieth
 twentyfirst twentysecond twentythird twentyfourth twentyfifth
 OUTPUT
   end

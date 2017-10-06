@@ -29,6 +29,10 @@ module Nth
     raise "#{self}.th is invalid" if self % 10 == 3
     minus_one
   end
+
+  def in(a : Array)
+    a[self]
+  end
 end
 
 {% for int in %w(Int8 Int16 Int32 Int64 UInt8 UInt16 UInt32 UInt64) %}

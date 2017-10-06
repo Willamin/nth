@@ -26,4 +26,14 @@ sixteenth seventeenth eighteenth nineteenth twentieth
 twentyfirst twentysecond twentythird twentyfourth twentyfifth
 OUTPUT
   end
+
+  it "can grab stuff from an array" do
+    my_array = [
+      :first,
+      :second,
+      :third,
+    ]
+
+    (1.st.in my_array).should eq :first
+  end
 end

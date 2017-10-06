@@ -8,13 +8,24 @@ Check out the following examples of the increase in readability!
 my_array = [:first, :second, :third]
 my_array[1]
 ```
-The above example read aloud says "the second element of `my_array`", _but_ it's using the numeral `1`.
+The above example read aloud says "the second element of `my_array`", _but_ it's using the numeral `1`, _but_ it's written right to left.
+
+
 ```crystal
 my_array = [:first, :second, :third]
 my_array[2.nd]
 ```
-The above example read aloud says "the second element of `my_array`, _and_ it's using the numeral `2`.
+The above example read aloud says "the second element of `my_array`", _and_ it's using the numeral `2`, _but_ it's written right to left.
 This way is clearly better.
+
+
+```crystal
+my_array = [:first, :second, :third]
+2.nd.element_of my_array
+```
+The above example read aloud says "the second element of `my_array`", _and_ it's written left to write.
+This way is obviously the most superior.
+
 
 ## Installation
 
@@ -33,6 +44,7 @@ require "nth"
 ```
 
 Integers get a few new methods added: `.st`, `.nd`, `.rd`, `.th`. Exceptions are raised when the methods are used on the wrong numbers, because I'm a bit of stickler Meeseeks.
+Integers also get the methods `.element_of(Array)`, and `in(Array)` which returns — drumroll please — the element of the array corresponding with the integer. Big surprise there.
 
 ## Development
 

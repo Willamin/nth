@@ -31,6 +31,10 @@ module Nth
   end
 
   def in(a : Array)
+    self.element_of(a)
+  end
+
+  def element_of(a : Array)
     a[self]
   end
 end

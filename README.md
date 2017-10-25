@@ -23,7 +23,7 @@ This way is clearly better.
 my_array = [:first, :second, :third]
 2.nd.element_of my_array
 ```
-The above example read aloud says "the second element of `my_array`", _and_ it's written left to write.
+The above example read aloud says "the second element of `my_array`", _and_ it's written left to right.
 This way is obviously the most superior.
 
 
